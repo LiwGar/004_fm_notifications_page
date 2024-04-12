@@ -21,7 +21,48 @@
     --Dark-grayish-blue: hsl(219, 12%, 42%);
     --Very-dark-blue: hsl(224, 21%, 14%);
 }
+html {
+    font-size: 1rem;
+    overflow-x: hidden;
+}
 /* Body */
 body {
     font-family: 'Plus Jakarta Sans';
+}
+
+.main {
+    padding: 1.5rem 1rem;
+}
+
+/* Notifications */
+.notifications {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    & .tittle {
+       color: var(--Very-dark-blue);
+       font-weight: 800; 
+       font-size: 1.25rem;
+       word-spacing: 0.563rem;
+    }
+    & .number {
+        display: inline-block;
+        width: 2.125rem;
+        height: 1.563rem;
+        background-color: var(--Blue);
+        color: var(--White);
+        text-align: center;
+        font-weight: 700;
+        border-radius: 0.375rem;
+    }
+    & .mark {
+        align-content: end;
+        color: var(--Dark-grayish-blue);
+        font-size: 0.875rem;
+        font-weight: 600;
+        cursor: pointer;
+        &:hover {
+            color: var(--Blue);
+        }
+    }
 }
