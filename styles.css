@@ -28,6 +28,7 @@ html {
 /* Body */
 body {
     font-family: 'Plus Jakarta Sans';
+    background-color: darkslategrey;
 }
 
 .main {
@@ -65,4 +66,47 @@ body {
             color: var(--Blue);
         }
     }
+}
+/* Post */
+.post {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--Very-light-grayish-blue);
+    color: var(--Dark-grayish-blue);
+    font-size: 0.875rem;
+    font-weight: 600;
+    gap: 0.813rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    & .image {
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+    & .name {
+        margin-right: 0.5rem;
+        color: var(--Very-dark-blue);
+        font-weight: 800;
+        &:hover {
+            color: var(--Blue);
+        }
+    }
+    & .reaction {
+        margin-left: 0.5rem;
+        font-weight: 800;
+        &:hover {
+            color: var(--Blue);
+        }
+    }
+    & .time {
+        color: var(--Grayish-blue);
+    }
+}
+.not_Read {
+    display: inline-block;
+    background-color: var(--Red);
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 50%;
 }
