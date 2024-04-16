@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
 }
 @font-face {
     font-family: 'Plus Jakarta Sans';
@@ -70,8 +72,8 @@ body {
 /* Post */
 .post {
     display: flex;
-    justify-content: space-between;
     padding: 1rem;
+    margin-bottom: 0.625rem;
     background-color: var(--Very-light-grayish-blue);
     color: var(--Dark-grayish-blue);
     font-size: 0.875rem;
@@ -101,6 +103,22 @@ body {
     & .time {
         color: var(--Grayish-blue);
     }
+    & .message_Container {
+        margin-top: 0.75rem;
+        padding: 1rem;
+        border: 0.063rem solid var(--Light-grayish-blue-2);
+        border-radius: 0.313rem;
+        &:hover {
+            background-color: var(--Light-grayish-blue-1);
+        }
+    }
+    & .picture {
+        width: 2.6rem;
+        height: 2.6rem;
+    }
+    & .group_Active {
+        color: var(--Blue);
+    }
 }
 .not_Read {
     display: inline-block;
@@ -110,3 +128,19 @@ body {
     margin-left: 0.5rem;
     border-radius: 50%;
 }
+/*Challenge Info*/
+.attribution {
+    padding: 1.5rem 1rem;
+    font-size: 0.875rem;
+    text-align: center;
+    font-weight: 600;
+    & .attribution_Challenge, 
+    .attribution_Author {
+        color: var(--Red);
+        font-weight: 700;
+        &:hover {
+            color: var(--Dark-grayish-blue);
+        }
+    }
+}
+/*2:36:42*/
