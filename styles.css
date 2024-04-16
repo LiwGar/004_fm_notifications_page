@@ -30,7 +30,6 @@ html {
 /* Body */
 body {
     font-family: 'Plus Jakarta Sans';
-    background-color: darkslategrey;
 }
 
 .main {
@@ -41,7 +40,7 @@ body {
 .notifications {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1.5rem;
+    margin: 0 auto 1.5rem;
     & .tittle {
        color: var(--Very-dark-blue);
        font-weight: 800; 
@@ -72,8 +71,9 @@ body {
 /* Post */
 .post {
     display: flex;
+    position: relative;
     padding: 1rem;
-    margin-bottom: 0.625rem;
+    margin: 0 auto 0.625rem;
     background-color: var(--Very-light-grayish-blue);
     color: var(--Dark-grayish-blue);
     font-size: 0.875rem;
@@ -115,6 +115,7 @@ body {
     & .picture {
         width: 2.6rem;
         height: 2.6rem;
+        right: 1rem;
     }
     & .group_Active {
         color: var(--Blue);
@@ -143,4 +144,16 @@ body {
         }
     }
 }
-/*2:36:42*/
+
+@media (min-width: 768px) {
+   .main {
+    width: 39rem;
+    margin: auto;
+   }
+   .post {
+    .picture {
+        position: absolute;
+    }
+   }
+   
+}
