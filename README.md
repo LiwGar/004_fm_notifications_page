@@ -70,3 +70,12 @@ The objective is:
 
 - Website - [LiwGAr](https://liwgar-portfolio.vercel.app/)
 - Frontend Mentor - [@Liwgar](https://www.frontendmentor.io/profile/LiwGar)
+
+
+## Solution
+
+I've just completed a front-end coding challenge from @frontendmentor! 🎉
+
+You can see my solution here: https://www.frontendmentor.io/solutions/notifications-page-using-css-flexbox-7AfpNwpjc1
+
+Any suggestions on how I can improve are welcome!
