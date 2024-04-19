@@ -22,16 +22,14 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 
 Users should be able to:
 
+- Distinguish between "unread" and "read" notifications
+- Select "Mark all as read" to toggle the visual state of the unread notifications and set  the number of unread messages to zero
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
-- See all testimonials in a horizontal slider
-- Receive an error message when the newsletter sign up `form` is submitted if:
-  - The `input` field is empty
-  - The email address is not formatted correctly
 
 ### Links
 
-- Live Site URL: [Manage landing page](https://liwgar.github.io/002_fm_manage_landing_page/)
+- Live Site URL: [Notifications page](https://liwgar.github.io/004_fm_notifications_page/)
 
 ### Screenshot
 
@@ -52,16 +50,14 @@ Users should be able to:
 
 - Git & Github.
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS3 custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [TailwindCSS](https://tailwindcss.com/) - For styles
 
 ### What I learned
 
 - Apply responsive design for any device.
-- Apply flexbox and grid.
+- Apply flexbox.
 - Improve semantic HTML5 markup.
 - Improve CSS custom properties.
 
