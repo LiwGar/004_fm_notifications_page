@@ -40,8 +40,8 @@ Users should be able to:
   <img src="./screenShots/Macbook-Air-1.png" width="500" height="350">
 </p>
 <p text-align="center">
-  <img src="./screenShots/iPhone-13-PRO.png" width="200" height="350">
-  <img src="./screenShots/iPhone-13-PRO- (1).png" width="200" height="350">
+  <img src="./screenShots/iPhone-13-PRO.png" width="180" height="350">
+  <img src="./screenShots/iPhone-13-PRO- (1).png" width="180" height="350">
 </p>
 
 ## My process
